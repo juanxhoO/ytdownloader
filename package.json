@@ -1,0 +1,27 @@
+{
+  "name": "ytconverter_microservice",
+  "version": "1.0.0",
+  "description": "YT COnverter server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "You",
+    "Tuve",
+    "COnverter",
+    "microservice"
+  ],
+  "author": "Juan Granja",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "glob-fs": "^0.1.5",
+    "youtube-dl-exec": "^2.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "proxy": "http://localhost:3000"
+}
